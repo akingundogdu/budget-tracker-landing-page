@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import phone1 from './assets/phone-1.png'
 import phone2 from './assets/phone-2.png'
 import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 font-mono">
